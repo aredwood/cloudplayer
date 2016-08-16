@@ -41,4 +41,4 @@ app.get("/auth",function(req,res){
     res.redirect(auth.request());
 });
 //listen
-server.listen(12525);
+server.listen(process.env.PORT);
